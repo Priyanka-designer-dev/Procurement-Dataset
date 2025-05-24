@@ -1,0 +1,32 @@
+Read me
+
+# Procurement Analysis Dashboard 📊
+
+This Power BI dashboard analyzes procurement data for a mid-sized organization. It offers insights into total spend, supplier performance, delivery timelines, and category-level spending.
+
+## 📌 Key Features
+- Total Spend and Category-wise Analysis
+- On-Time Delivery Rate & Avg Delivery Time
+- Top 10 Suppliers by Spend
+- Region-wise Spend Distribution
+- Interactive filters by Region, Supplier, and Year
+
+## 🧩 Tools Used
+- Microsoft Excel (Data Preparation)
+- Microsoft Power BI (Visualization)
+- DAX for Calculated Columns and Measures
+
+## 📁 Files Included
+- `Procurement Analysis Case Study.pdf`: Full business case write-up
+- `Procurement Dashboard.pbix`: Power BI dashboard file
+- `Procurement Dataset.xlsx`: Raw dataset
+- `images/dashboard-preview.png`: Screenshot of the final dashboard
+
+## 📷 Preview
+
+![Dashboard Preview](images/dashboard-preview.png)
+
+## 📬 Contact
+
+Made by Priyanka.D
+
