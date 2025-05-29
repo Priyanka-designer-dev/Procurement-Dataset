@@ -1,0 +1,501 @@
+OrderID,Supplier,Region,Category,Product,Quantity,UnitPrice,TotalCost,OrderDate,ExpectedDeliveryDate,ActualDeliveryDate,OnTimeDelivery
+PO0001,Epsilon Ltd,North,Office Supplies,Pens,95,282.28,26816.6,2023-08-17,2023-08-22,2023-08-22,True
+PO0002,Epsilon Ltd,North,Logistics,Pallets,5,39.5,197.5,2023-08-12,2023-08-20,2023-08-21,False
+PO0003,Delta Goods,East,Logistics,Packaging,92,653.39,60111.88,2024-07-12,2024-07-26,2024-07-28,False
+PO0004,Gamma Traders,North,Office Supplies,Notebooks,90,428.39,38555.1,2023-10-12,2023-10-17,2023-10-19,False
+PO0005,Alpha Supplies,West,Office Supplies,Folders,13,365.39,4750.07,2023-12-19,2024-01-08,2024-01-13,False
+PO0006,Epsilon Ltd,South,Logistics,Packaging,49,88.01,4312.49,2023-10-28,2023-11-17,2023-11-16,True
+PO0007,Alpha Supplies,West,Office Supplies,Pens,85,235.62,20027.7,2023-10-24,2023-10-27,2023-10-29,False
+PO0008,Beta Corp,East,Furniture,Meeting Tables,82,835.77,68533.14,2023-06-16,2023-06-28,2023-06-27,True
+PO0009,Gamma Traders,South,Office Supplies,Notebooks,69,731.84,50496.96,2023-06-17,2023-07-02,2023-07-02,True
+PO0010,Alpha Supplies,South,Furniture,Desks,30,823.58,24707.4,2023-11-20,2023-12-03,2023-12-08,False
+PO0011,Beta Corp,East,Logistics,Forklifts,41,220.5,9040.5,2024-05-26,2024-06-08,2024-06-08,True
+PO0012,Epsilon Ltd,West,IT Equipment,Monitors,96,565.75,54312.0,2023-09-27,2023-10-16,2023-10-16,True
+PO0013,Beta Corp,South,Furniture,Chairs,18,514.43,9259.74,2023-04-04,2023-04-06,2023-04-06,True
+PO0014,Gamma Traders,North,Maintenance,Safety Gear,9,390.92,3518.28,2024-09-02,2024-09-17,2024-09-18,False
+PO0015,Beta Corp,West,Office Supplies,Staplers,99,644.55,63810.45,2023-04-25,2023-05-05,2023-05-05,True
+PO0016,Epsilon Ltd,South,Office Supplies,Staplers,65,764.34,49682.1,2024-06-03,2024-06-07,2024-06-12,False
+PO0017,Delta Goods,North,IT Equipment,Keyboards,98,169.93,16653.14,2024-06-27,2024-06-28,2024-06-27,True
+PO0018,Alpha Supplies,West,Office Supplies,Staplers,40,247.06,9882.4,2023-09-04,2023-09-23,2023-09-23,True
+PO0019,Epsilon Ltd,West,Office Supplies,Notebooks,17,663.15,11273.55,2024-07-16,2024-07-22,2024-07-27,False
+PO0020,Epsilon Ltd,West,IT Equipment,Monitors,92,318.6,29311.2,2024-11-18,2024-11-30,2024-11-30,True
+PO0021,Beta Corp,South,Office Supplies,Notebooks,29,73.39,2128.31,2023-01-22,2023-02-10,2023-02-11,False
+PO0022,Gamma Traders,North,Office Supplies,Pens,91,634.79,57765.89,2023-08-23,2023-08-26,2023-08-26,True
+PO0023,Epsilon Ltd,West,Logistics,Packaging,36,672.29,24202.44,2023-08-08,2023-08-26,2023-08-26,True
+PO0024,Delta Goods,West,IT Equipment,Mice,53,198.51,10521.03,2023-04-10,2023-04-24,2023-04-23,True
+PO0025,Delta Goods,East,Maintenance,Safety Gear,7,676.63,4736.41,2024-10-23,2024-10-27,2024-10-27,True
+PO0026,Beta Corp,East,Office Supplies,Notebooks,25,198.31,4957.75,2024-04-04,2024-04-09,2024-04-09,True
+PO0027,Epsilon Ltd,North,Maintenance,Cleaning Supplies,10,448.7,4487.0,2024-07-17,2024-07-21,2024-07-21,True
+PO0028,Alpha Supplies,South,Office Supplies,Notebooks,22,412.35,9071.7,2024-05-07,2024-05-14,2024-05-14,True
+PO0029,Epsilon Ltd,West,Maintenance,Cleaning Supplies,50,272.55,13627.5,2024-04-10,2024-04-20,2024-04-20,True
+PO0030,Alpha Supplies,East,IT Equipment,Monitors,38,225.52,8569.76,2023-03-01,2023-03-20,2023-03-21,False
+PO0031,Epsilon Ltd,North,Office Supplies,Pens,75,482.02,36151.5,2024-06-27,2024-07-03,2024-07-03,True
+PO0032,Epsilon Ltd,South,IT Equipment,Laptops,77,77.28,5950.56,2023-08-29,2023-09-11,2023-09-11,True
+PO0033,Gamma Traders,East,Logistics,Forklifts,6,623.19,3739.14,2024-03-05,2024-03-24,2024-03-25,False
+PO0034,Gamma Traders,North,IT Equipment,Keyboards,31,272.96,8461.76,2023-05-15,2023-05-25,2023-05-25,True
+PO0035,Beta Corp,East,Office Supplies,Folders,80,998.47,79877.6,2023-04-13,2023-04-16,2023-04-17,False
+PO0036,Delta Goods,East,IT Equipment,Keyboards,9,880.48,7924.32,2024-01-14,2024-01-24,2024-01-24,True
+PO0037,Beta Corp,East,Logistics,Forklifts,68,17.74,1206.32,2024-07-21,2024-07-31,2024-07-31,True
+PO0038,Gamma Traders,South,Office Supplies,Pens,96,557.69,53538.24,2023-10-06,2023-10-16,2023-10-18,False
+PO0039,Gamma Traders,North,Furniture,Meeting Tables,33,906.28,29907.24,2023-02-22,2023-02-25,2023-02-25,True
+PO0040,Epsilon Ltd,West,Office Supplies,Staplers,99,139.51,13811.49,2023-09-26,2023-10-02,2023-10-02,True
+PO0041,Alpha Supplies,East,Logistics,Packaging,15,84.49,1267.35,2024-12-08,2024-12-13,2024-12-14,False
+PO0042,Alpha Supplies,East,Logistics,Forklifts,19,435.49,8274.31,2023-02-12,2023-02-22,2023-02-21,True
+PO0043,Beta Corp,South,IT Equipment,Monitors,86,111.77,9612.22,2024-07-27,2024-08-10,2024-08-10,True
+PO0044,Gamma Traders,South,IT Equipment,Mice,4,187.57,750.28,2023-12-07,2023-12-21,2023-12-23,False
+PO0045,Gamma Traders,East,Office Supplies,Folders,5,860.01,4300.05,2023-08-16,2023-08-23,2023-08-23,True
+PO0046,Alpha Supplies,East,IT Equipment,Monitors,4,663.43,2653.72,2024-02-13,2024-02-24,2024-02-29,False
+PO0047,Alpha Supplies,East,Furniture,Meeting Tables,87,981.34,85376.58,2024-07-03,2024-07-14,2024-07-14,True
+PO0048,Delta Goods,North,IT Equipment,Keyboards,5,117.32,586.6,2024-03-20,2024-04-01,2024-03-31,True
+PO0049,Epsilon Ltd,South,Maintenance,Safety Gear,25,262.18,6554.5,2024-12-26,2025-01-09,2025-01-09,True
+PO0050,Alpha Supplies,East,Furniture,Meeting Tables,9,949.39,8544.51,2023-12-05,2023-12-25,2023-12-24,True
+PO0051,Beta Corp,South,Logistics,Pallets,86,414.31,35630.66,2024-02-17,2024-02-27,2024-02-28,False
+PO0052,Delta Goods,North,Maintenance,Safety Gear,49,680.54,33346.46,2023-06-28,2023-07-18,2023-07-23,False
+PO0053,Delta Goods,West,Furniture,Cabinets,27,435.59,11760.93,2024-08-16,2024-09-05,2024-09-04,True
+PO0054,Epsilon Ltd,East,Maintenance,Safety Gear,28,516.06,14449.68,2023-06-23,2023-06-26,2023-07-01,False
+PO0055,Alpha Supplies,South,Office Supplies,Notebooks,87,317.32,27606.84,2023-07-23,2023-07-28,2023-07-28,True
+PO0056,Delta Goods,West,Maintenance,Safety Gear,99,82.1,8127.9,2024-02-29,2024-03-19,2024-03-21,False
+PO0057,Beta Corp,South,Maintenance,Cleaning Supplies,19,659.5,12530.5,2023-01-06,2023-01-10,2023-01-10,True
+PO0058,Delta Goods,East,Logistics,Pallets,7,561.83,3932.81,2023-05-05,2023-05-20,2023-05-20,True
+PO0059,Beta Corp,West,Maintenance,Safety Gear,93,893.1,83058.3,2024-03-12,2024-03-30,2024-03-30,True
+PO0060,Delta Goods,South,Maintenance,Repair Tools,97,254.77,24712.69,2024-10-14,2024-10-23,2024-10-24,False
+PO0061,Gamma Traders,North,Furniture,Meeting Tables,10,716.41,7164.1,2023-08-29,2023-09-07,2023-09-06,True
+PO0062,Delta Goods,West,IT Equipment,Monitors,30,389.2,11676.0,2023-06-06,2023-06-13,2023-06-13,True
+PO0063,Epsilon Ltd,West,Furniture,Meeting Tables,54,71.64,3868.56,2024-03-06,2024-03-19,2024-03-19,True
+PO0064,Epsilon Ltd,South,Maintenance,Cleaning Supplies,46,305.63,14058.98,2024-02-04,2024-02-18,2024-02-19,False
+PO0065,Delta Goods,South,Maintenance,Cleaning Supplies,35,441.48,15451.8,2023-01-30,2023-02-12,2023-02-11,True
+PO0066,Alpha Supplies,West,Maintenance,Cleaning Supplies,80,538.78,43102.4,2024-02-08,2024-02-27,2024-02-27,True
+PO0067,Delta Goods,East,IT Equipment,Mice,24,59.78,1434.72,2024-01-24,2024-02-04,2024-02-06,False
+PO0068,Delta Goods,North,Furniture,Meeting Tables,36,754.49,27161.64,2024-03-07,2024-03-16,2024-03-16,True
+PO0069,Beta Corp,South,Logistics,Packaging,45,231.98,10439.1,2023-03-12,2023-03-14,2023-03-14,True
+PO0070,Delta Goods,East,Office Supplies,Notebooks,31,134.96,4183.76,2024-11-16,2024-11-20,2024-11-22,False
+PO0071,Alpha Supplies,North,Furniture,Chairs,78,611.18,47672.04,2023-04-28,2023-05-04,2023-05-09,False
+PO0072,Alpha Supplies,East,Furniture,Meeting Tables,51,942.06,48045.06,2023-07-23,2023-07-26,2023-07-28,False
+PO0073,Gamma Traders,North,Logistics,Packaging,73,784.81,57291.13,2023-12-22,2024-01-09,2024-01-09,True
+PO0074,Delta Goods,East,Logistics,Forklifts,44,22.53,991.32,2024-03-06,2024-03-22,2024-03-22,True
+PO0075,Delta Goods,West,Maintenance,Safety Gear,20,441.13,8822.6,2024-06-18,2024-06-27,2024-06-28,False
+PO0076,Delta Goods,South,Maintenance,Safety Gear,76,275.71,20953.96,2023-09-09,2023-09-12,2023-09-17,False
+PO0077,Gamma Traders,South,Maintenance,Safety Gear,79,671.51,53049.29,2023-12-11,2023-12-12,2023-12-12,True
+PO0078,Epsilon Ltd,North,Maintenance,Cleaning Supplies,46,799.85,36793.1,2023-12-15,2023-12-24,2023-12-29,False
+PO0079,Beta Corp,West,Logistics,Packaging,11,248.94,2738.34,2024-02-21,2024-03-08,2024-03-09,False
+PO0080,Gamma Traders,East,Maintenance,Repair Tools,3,102.12,306.36,2023-08-15,2023-08-28,2023-08-30,False
+PO0081,Delta Goods,East,Maintenance,Safety Gear,68,350.32,23821.76,2024-07-17,2024-07-28,2024-07-27,True
+PO0082,Epsilon Ltd,South,Furniture,Cabinets,30,129.45,3883.5,2023-07-17,2023-07-28,2023-07-28,True
+PO0083,Alpha Supplies,South,IT Equipment,Monitors,95,489.36,46489.2,2024-08-26,2024-09-12,2024-09-17,False
+PO0084,Gamma Traders,North,Furniture,Chairs,47,187.65,8819.55,2023-01-15,2023-02-02,2023-02-02,True
+PO0085,Alpha Supplies,East,Office Supplies,Staplers,90,944.65,85018.5,2024-10-15,2024-10-31,2024-10-31,True
+PO0086,Alpha Supplies,North,Maintenance,Repair Tools,57,347.3,19796.1,2023-02-22,2023-03-03,2023-03-03,True
+PO0087,Beta Corp,East,Maintenance,Repair Tools,10,581.25,5812.5,2024-12-03,2024-12-05,2024-12-05,True
+PO0088,Epsilon Ltd,West,Office Supplies,Notebooks,16,562.49,8999.84,2024-03-02,2024-03-22,2024-03-24,False
+PO0089,Epsilon Ltd,North,Maintenance,Repair Tools,39,861.56,33600.84,2024-03-15,2024-03-25,2024-03-25,True
+PO0090,Epsilon Ltd,North,IT Equipment,Monitors,34,663.82,22569.88,2023-06-10,2023-06-18,2023-06-18,True
+PO0091,Alpha Supplies,South,IT Equipment,Laptops,53,456.0,24168.0,2024-08-31,2024-09-16,2024-09-21,False
+PO0092,Epsilon Ltd,South,Furniture,Cabinets,90,861.01,77490.9,2023-03-14,2023-03-22,2023-03-27,False
+PO0093,Alpha Supplies,North,Maintenance,Cleaning Supplies,70,232.56,16279.2,2023-06-02,2023-06-11,2023-06-11,True
+PO0094,Alpha Supplies,West,IT Equipment,Keyboards,77,751.47,57863.19,2024-08-05,2024-08-15,2024-08-15,True
+PO0095,Epsilon Ltd,North,Furniture,Meeting Tables,35,505.47,17691.45,2024-05-20,2024-06-04,2024-06-04,True
+PO0096,Epsilon Ltd,North,Maintenance,Safety Gear,42,607.68,25522.56,2023-01-27,2023-01-30,2023-02-01,False
+PO0097,Gamma Traders,South,Furniture,Desks,98,758.71,74353.58,2024-04-26,2024-05-13,2024-05-13,True
+PO0098,Delta Goods,East,Logistics,Pallets,82,816.1,66920.2,2023-04-04,2023-04-20,2023-04-19,True
+PO0099,Delta Goods,North,Furniture,Desks,21,336.51,7066.71,2024-12-11,2024-12-27,2025-01-01,False
+PO0100,Alpha Supplies,West,Maintenance,Cleaning Supplies,41,259.87,10654.67,2023-04-29,2023-05-12,2023-05-13,False
+PO0101,Alpha Supplies,South,Maintenance,Cleaning Supplies,25,523.25,13081.25,2024-09-29,2024-10-15,2024-10-15,True
+PO0102,Alpha Supplies,South,Furniture,Chairs,37,443.73,16418.01,2024-12-16,2025-01-01,2025-01-01,True
+PO0103,Alpha Supplies,West,IT Equipment,Keyboards,71,23.54,1671.34,2024-02-22,2024-02-25,2024-02-27,False
+PO0104,Delta Goods,West,Office Supplies,Notebooks,64,933.33,59733.12,2023-10-26,2023-11-12,2023-11-17,False
+PO0105,Beta Corp,North,Maintenance,Cleaning Supplies,59,555.75,32789.25,2024-01-28,2024-02-04,2024-02-05,False
+PO0106,Gamma Traders,East,Furniture,Meeting Tables,44,934.91,41136.04,2024-06-03,2024-06-12,2024-06-12,True
+PO0107,Delta Goods,East,Logistics,Forklifts,85,494.74,42052.9,2023-06-02,2023-06-17,2023-06-18,False
+PO0108,Beta Corp,West,Furniture,Meeting Tables,59,933.52,55077.68,2023-07-13,2023-07-21,2023-07-21,True
+PO0109,Delta Goods,North,Office Supplies,Staplers,96,478.25,45912.0,2024-01-26,2024-02-08,2024-02-08,True
+PO0110,Delta Goods,North,IT Equipment,Keyboards,13,875.45,11380.85,2024-03-26,2024-03-30,2024-03-31,False
+PO0111,Gamma Traders,West,IT Equipment,Mice,84,970.26,81501.84,2023-03-18,2023-04-03,2023-04-08,False
+PO0112,Epsilon Ltd,North,Office Supplies,Staplers,87,860.75,74885.25,2024-01-25,2024-02-05,2024-02-05,True
+PO0113,Delta Goods,North,Logistics,Packaging,31,634.85,19680.35,2023-10-22,2023-10-30,2023-10-30,True
+PO0114,Alpha Supplies,East,Office Supplies,Folders,22,697.06,15335.32,2023-01-30,2023-02-01,2023-01-31,True
+PO0115,Beta Corp,South,Furniture,Cabinets,56,154.11,8630.16,2024-06-27,2024-07-11,2024-07-11,True
+PO0116,Beta Corp,West,Office Supplies,Folders,80,686.3,54904.0,2024-05-24,2024-06-12,2024-06-12,True
+PO0117,Beta Corp,North,Furniture,Meeting Tables,33,670.17,22115.61,2024-04-21,2024-05-01,2024-05-02,False
+PO0118,Gamma Traders,South,Maintenance,Repair Tools,76,306.16,23268.16,2024-03-10,2024-03-19,2024-03-19,True
+PO0119,Gamma Traders,North,Maintenance,Repair Tools,14,244.83,3427.62,2024-08-08,2024-08-20,2024-08-25,False
+PO0120,Gamma Traders,South,Maintenance,Repair Tools,2,570.27,1140.54,2024-12-03,2024-12-05,2024-12-05,True
+PO0121,Alpha Supplies,North,Logistics,Pallets,29,640.25,18567.25,2024-09-27,2024-10-06,2024-10-06,True
+PO0122,Gamma Traders,West,Furniture,Meeting Tables,5,583.78,2918.9,2023-05-15,2023-05-18,2023-05-23,False
+PO0123,Gamma Traders,South,IT Equipment,Monitors,17,788.65,13407.05,2024-01-10,2024-01-27,2024-01-28,False
+PO0124,Alpha Supplies,South,Furniture,Meeting Tables,38,749.09,28465.42,2023-12-13,2023-12-17,2023-12-17,True
+PO0125,Epsilon Ltd,North,IT Equipment,Mice,72,372.12,26792.64,2024-02-09,2024-02-10,2024-02-15,False
+PO0126,Gamma Traders,North,Maintenance,Repair Tools,87,751.52,65382.24,2023-09-26,2023-10-15,2023-10-15,True
+PO0127,Alpha Supplies,West,IT Equipment,Mice,4,623.35,2493.4,2024-07-28,2024-08-08,2024-08-10,False
+PO0128,Alpha Supplies,North,Furniture,Meeting Tables,15,148.38,2225.7,2023-02-08,2023-02-18,2023-02-18,True
+PO0129,Epsilon Ltd,South,IT Equipment,Monitors,50,459.11,22955.5,2024-11-17,2024-12-05,2024-12-05,True
+PO0130,Alpha Supplies,East,Maintenance,Safety Gear,13,835.36,10859.68,2024-09-22,2024-10-06,2024-10-11,False
+PO0131,Epsilon Ltd,East,IT Equipment,Mice,57,951.05,54209.85,2024-01-07,2024-01-11,2024-01-10,True
+PO0132,Beta Corp,North,Office Supplies,Folders,36,197.91,7124.76,2023-05-06,2023-05-21,2023-05-21,True
+PO0133,Epsilon Ltd,South,Office Supplies,Staplers,32,988.93,31645.76,2024-08-01,2024-08-08,2024-08-08,True
+PO0134,Gamma Traders,South,Logistics,Packaging,30,335.27,10058.1,2023-06-01,2023-06-21,2023-06-21,True
+PO0135,Gamma Traders,South,IT Equipment,Keyboards,23,118.83,2733.09,2023-01-27,2023-02-01,2023-02-01,True
+PO0136,Epsilon Ltd,North,Logistics,Pallets,3,182.5,547.5,2023-02-23,2023-02-28,2023-02-28,True
+PO0137,Delta Goods,South,Office Supplies,Folders,58,780.24,45253.92,2024-06-09,2024-06-28,2024-06-28,True
+PO0138,Delta Goods,North,Logistics,Packaging,94,785.39,73826.66,2024-11-05,2024-11-22,2024-11-27,False
+PO0139,Alpha Supplies,North,Office Supplies,Folders,52,432.01,22464.52,2023-04-21,2023-05-07,2023-05-07,True
+PO0140,Gamma Traders,West,Furniture,Chairs,9,134.93,1214.37,2024-10-01,2024-10-20,2024-10-21,False
+PO0141,Alpha Supplies,South,Logistics,Forklifts,38,459.18,17448.84,2024-09-11,2024-09-25,2024-09-25,True
+PO0142,Alpha Supplies,East,Maintenance,Repair Tools,30,419.68,12590.4,2024-04-09,2024-04-22,2024-04-22,True
+PO0143,Alpha Supplies,North,Maintenance,Repair Tools,86,262.34,22561.24,2023-06-06,2023-06-22,2023-06-22,True
+PO0144,Alpha Supplies,East,Office Supplies,Folders,13,747.14,9712.82,2024-01-17,2024-01-22,2024-01-23,False
+PO0145,Epsilon Ltd,East,Office Supplies,Folders,46,874.87,40244.02,2024-03-09,2024-03-11,2024-03-16,False
+PO0146,Alpha Supplies,East,Furniture,Desks,74,512.34,37913.16,2023-06-08,2023-06-24,2023-06-26,False
+PO0147,Epsilon Ltd,North,Logistics,Pallets,15,764.98,11474.7,2024-08-10,2024-08-18,2024-08-18,True
+PO0148,Gamma Traders,East,Logistics,Forklifts,89,274.77,24454.53,2023-07-04,2023-07-13,2023-07-18,False
+PO0149,Alpha Supplies,North,Office Supplies,Notebooks,19,570.66,10842.54,2024-02-15,2024-02-18,2024-02-18,True
+PO0150,Gamma Traders,East,Logistics,Packaging,49,425.63,20855.87,2023-12-16,2023-12-22,2023-12-21,True
+PO0151,Alpha Supplies,East,Logistics,Forklifts,11,884.51,9729.61,2023-06-09,2023-06-15,2023-06-15,True
+PO0152,Beta Corp,North,Maintenance,Safety Gear,55,490.81,26994.55,2024-03-28,2024-04-11,2024-04-16,False
+PO0153,Epsilon Ltd,East,Furniture,Meeting Tables,15,290.41,4356.15,2024-11-25,2024-12-14,2024-12-14,True
+PO0154,Gamma Traders,South,Office Supplies,Notebooks,51,984.6,50214.6,2023-02-26,2023-02-27,2023-03-01,False
+PO0155,Beta Corp,South,IT Equipment,Keyboards,38,334.84,12723.92,2023-01-08,2023-01-24,2023-01-24,True
+PO0156,Delta Goods,North,Maintenance,Safety Gear,91,237.81,21640.71,2024-07-26,2024-08-07,2024-08-07,True
+PO0157,Epsilon Ltd,West,Maintenance,Cleaning Supplies,59,921.95,54395.05,2023-11-17,2023-12-06,2023-12-06,True
+PO0158,Gamma Traders,North,Maintenance,Repair Tools,15,410.98,6164.7,2023-11-29,2023-12-05,2023-12-05,True
+PO0159,Delta Goods,East,Maintenance,Cleaning Supplies,32,441.32,14122.24,2024-02-15,2024-03-03,2024-03-03,True
+PO0160,Epsilon Ltd,South,Furniture,Chairs,43,781.33,33597.19,2023-03-20,2023-04-06,2023-04-06,True
+PO0161,Alpha Supplies,South,Furniture,Cabinets,94,958.64,90112.16,2024-10-22,2024-10-27,2024-10-29,False
+PO0162,Delta Goods,West,Furniture,Chairs,23,606.37,13946.51,2024-11-02,2024-11-05,2024-11-05,True
+PO0163,Gamma Traders,South,Logistics,Forklifts,58,684.32,39690.56,2024-08-01,2024-08-21,2024-08-20,True
+PO0164,Gamma Traders,North,Maintenance,Cleaning Supplies,61,447.79,27315.19,2023-11-07,2023-11-16,2023-11-16,True
+PO0165,Alpha Supplies,West,Furniture,Meeting Tables,58,47.23,2739.34,2024-01-13,2024-01-23,2024-01-23,True
+PO0166,Gamma Traders,West,Maintenance,Safety Gear,71,954.69,67782.99,2023-02-12,2023-02-27,2023-03-01,False
+PO0167,Beta Corp,North,Logistics,Packaging,8,456.02,3648.16,2023-12-18,2023-12-21,2023-12-22,False
+PO0168,Gamma Traders,East,IT Equipment,Mice,57,528.83,30143.31,2024-09-16,2024-09-22,2024-09-21,True
+PO0169,Alpha Supplies,East,Maintenance,Repair Tools,100,344.98,34498.0,2024-09-04,2024-09-06,2024-09-05,True
+PO0170,Gamma Traders,North,Office Supplies,Folders,37,259.48,9600.76,2024-11-03,2024-11-23,2024-11-23,True
+PO0171,Epsilon Ltd,North,Logistics,Forklifts,19,917.58,17434.02,2023-11-14,2023-11-27,2023-11-27,True
+PO0172,Delta Goods,East,Furniture,Meeting Tables,83,793.75,65881.25,2023-05-11,2023-05-28,2023-05-28,True
+PO0173,Beta Corp,South,Office Supplies,Staplers,40,188.46,7538.4,2023-08-08,2023-08-19,2023-08-19,True
+PO0174,Epsilon Ltd,North,IT Equipment,Monitors,10,302.83,3028.3,2023-04-14,2023-05-01,2023-05-02,False
+PO0175,Delta Goods,North,Furniture,Chairs,77,382.95,29487.15,2023-06-16,2023-06-22,2023-06-22,True
+PO0176,Delta Goods,South,Maintenance,Repair Tools,87,722.39,62847.93,2024-03-30,2024-04-19,2024-04-24,False
+PO0177,Epsilon Ltd,West,Logistics,Packaging,40,965.94,38637.6,2024-04-25,2024-05-02,2024-05-01,True
+PO0178,Beta Corp,South,Maintenance,Repair Tools,100,388.05,38805.0,2024-06-24,2024-07-08,2024-07-08,True
+PO0179,Epsilon Ltd,North,Furniture,Desks,83,485.78,40319.74,2024-01-16,2024-02-03,2024-02-03,True
+PO0180,Delta Goods,North,Furniture,Desks,98,168.71,16533.58,2024-04-05,2024-04-22,2024-04-22,True
+PO0181,Epsilon Ltd,East,IT Equipment,Mice,45,931.17,41902.65,2024-02-29,2024-03-02,2024-03-02,True
+PO0182,Gamma Traders,South,IT Equipment,Mice,11,381.16,4192.76,2023-01-29,2023-02-09,2023-02-09,True
+PO0183,Delta Goods,North,IT Equipment,Laptops,37,918.22,33974.14,2024-04-28,2024-05-03,2024-05-03,True
+PO0184,Delta Goods,North,Office Supplies,Pens,33,223.5,7375.5,2023-06-03,2023-06-21,2023-06-22,False
+PO0185,Alpha Supplies,North,Furniture,Chairs,39,130.63,5094.57,2023-09-02,2023-09-16,2023-09-16,True
+PO0186,Beta Corp,East,Maintenance,Safety Gear,69,26.27,1812.63,2024-06-11,2024-06-30,2024-07-02,False
+PO0187,Alpha Supplies,East,Maintenance,Cleaning Supplies,79,359.29,28383.91,2024-08-07,2024-08-21,2024-08-21,True
+PO0188,Gamma Traders,North,Office Supplies,Pens,50,874.6,43730.0,2023-02-14,2023-02-27,2023-02-26,True
+PO0189,Beta Corp,North,Furniture,Desks,45,248.71,11191.95,2024-11-03,2024-11-07,2024-11-06,True
+PO0190,Beta Corp,South,Furniture,Cabinets,83,183.34,15217.22,2024-12-02,2024-12-17,2024-12-17,True
+PO0191,Gamma Traders,East,Office Supplies,Folders,5,300.51,1502.55,2023-02-14,2023-02-21,2023-02-21,True
+PO0192,Gamma Traders,North,Logistics,Pallets,70,478.67,33506.9,2023-02-07,2023-02-14,2023-02-19,False
+PO0193,Delta Goods,East,Furniture,Cabinets,16,801.35,12821.6,2024-03-23,2024-04-05,2024-04-05,True
+PO0194,Delta Goods,North,IT Equipment,Mice,89,502.55,44726.95,2024-06-15,2024-06-24,2024-06-24,True
+PO0195,Gamma Traders,East,Maintenance,Safety Gear,24,550.02,13200.48,2023-11-25,2023-11-29,2023-11-29,True
+PO0196,Delta Goods,North,Furniture,Meeting Tables,78,720.49,56198.22,2023-06-20,2023-07-05,2023-07-04,True
+PO0197,Gamma Traders,South,Furniture,Meeting Tables,36,643.07,23150.52,2023-02-28,2023-03-03,2023-03-03,True
+PO0198,Alpha Supplies,South,Office Supplies,Notebooks,78,681.31,53142.18,2024-03-24,2024-03-26,2024-03-26,True
+PO0199,Delta Goods,East,Furniture,Cabinets,50,949.97,47498.5,2023-02-03,2023-02-23,2023-02-23,True
+PO0200,Delta Goods,East,Furniture,Meeting Tables,98,86.12,8439.76,2023-05-21,2023-06-07,2023-06-06,True
+PO0201,Delta Goods,North,Furniture,Chairs,15,35.65,534.75,2023-07-10,2023-07-26,2023-07-27,False
+PO0202,Beta Corp,North,Furniture,Cabinets,91,451.81,41114.71,2024-09-18,2024-09-28,2024-09-28,True
+PO0203,Gamma Traders,East,IT Equipment,Laptops,58,180.93,10493.94,2024-12-31,2025-01-15,2025-01-15,True
+PO0204,Epsilon Ltd,South,Office Supplies,Staplers,39,852.85,33261.15,2024-12-29,2025-01-04,2025-01-03,True
+PO0205,Epsilon Ltd,East,Office Supplies,Notebooks,18,244.37,4398.66,2024-05-20,2024-05-21,2024-05-20,True
+PO0206,Delta Goods,West,Maintenance,Safety Gear,17,615.83,10469.11,2023-03-30,2023-04-02,2023-04-07,False
+PO0207,Gamma Traders,North,Logistics,Pallets,99,415.34,41118.66,2024-08-11,2024-08-14,2024-08-14,True
+PO0208,Beta Corp,West,Maintenance,Repair Tools,88,522.19,45952.72,2023-05-12,2023-05-30,2023-05-30,True
+PO0209,Gamma Traders,South,Logistics,Packaging,16,522.92,8366.72,2023-11-08,2023-11-14,2023-11-14,True
+PO0210,Beta Corp,East,Furniture,Cabinets,11,258.1,2839.1,2024-10-12,2024-10-30,2024-11-04,False
+PO0211,Beta Corp,East,Logistics,Forklifts,12,507.55,6090.6,2023-06-22,2023-07-11,2023-07-11,True
+PO0212,Beta Corp,West,Logistics,Packaging,4,90.41,361.64,2024-10-18,2024-11-06,2024-11-11,False
+PO0213,Gamma Traders,West,Logistics,Forklifts,4,503.06,2012.24,2024-10-04,2024-10-22,2024-10-27,False
+PO0214,Delta Goods,West,IT Equipment,Mice,39,459.01,17901.39,2024-12-06,2024-12-08,2024-12-08,True
+PO0215,Gamma Traders,West,Maintenance,Repair Tools,27,346.79,9363.33,2023-05-28,2023-06-08,2023-06-07,True
+PO0216,Alpha Supplies,East,IT Equipment,Keyboards,66,566.03,37357.98,2023-11-23,2023-12-01,2023-12-01,True
+PO0217,Beta Corp,South,Maintenance,Cleaning Supplies,19,105.84,2010.96,2023-10-25,2023-11-07,2023-11-07,True
+PO0218,Delta Goods,East,Furniture,Cabinets,25,765.49,19137.25,2024-05-25,2024-06-11,2024-06-11,True
+PO0219,Beta Corp,East,Maintenance,Cleaning Supplies,12,945.78,11349.36,2024-06-01,2024-06-16,2024-06-18,False
+PO0220,Epsilon Ltd,North,Office Supplies,Pens,37,499.95,18498.15,2024-10-31,2024-11-16,2024-11-21,False
+PO0221,Alpha Supplies,West,Office Supplies,Folders,18,883.63,15905.34,2024-01-10,2024-01-23,2024-01-22,True
+PO0222,Delta Goods,East,Office Supplies,Notebooks,47,557.69,26211.43,2023-03-17,2023-03-30,2023-03-31,False
+PO0223,Gamma Traders,East,Logistics,Forklifts,79,127.62,10081.98,2023-04-10,2023-04-23,2023-04-22,True
+PO0224,Alpha Supplies,South,IT Equipment,Monitors,78,514.03,40094.34,2024-05-27,2024-05-29,2024-05-29,True
+PO0225,Gamma Traders,East,Furniture,Meeting Tables,67,462.42,30982.14,2024-09-12,2024-09-29,2024-09-29,True
+PO0226,Epsilon Ltd,West,IT Equipment,Mice,79,741.93,58612.47,2023-11-03,2023-11-22,2023-11-21,True
+PO0227,Delta Goods,East,Logistics,Pallets,61,817.59,49872.99,2024-01-13,2024-01-24,2024-01-24,True
+PO0228,Alpha Supplies,West,Office Supplies,Folders,34,967.4,32891.6,2024-08-15,2024-09-03,2024-09-05,False
+PO0229,Beta Corp,North,IT Equipment,Mice,19,823.44,15645.36,2023-09-06,2023-09-08,2023-09-08,True
+PO0230,Epsilon Ltd,West,Maintenance,Repair Tools,54,159.92,8635.68,2024-12-08,2024-12-15,2024-12-15,True
+PO0231,Delta Goods,East,Office Supplies,Notebooks,67,215.27,14423.09,2023-11-29,2023-12-15,2023-12-16,False
+PO0232,Beta Corp,South,IT Equipment,Mice,69,348.9,24074.1,2023-12-29,2024-01-07,2024-01-07,True
+PO0233,Delta Goods,East,Furniture,Cabinets,29,942.07,27320.03,2023-11-01,2023-11-11,2023-11-13,False
+PO0234,Epsilon Ltd,West,Maintenance,Repair Tools,72,934.36,67273.92,2023-10-08,2023-10-18,2023-10-18,True
+PO0235,Alpha Supplies,East,Maintenance,Repair Tools,99,806.57,79850.43,2023-10-25,2023-10-27,2023-11-01,False
+PO0236,Gamma Traders,East,Maintenance,Safety Gear,33,749.87,24745.71,2023-08-08,2023-08-15,2023-08-16,False
+PO0237,Epsilon Ltd,South,IT Equipment,Laptops,79,743.48,58734.92,2023-09-03,2023-09-11,2023-09-11,True
+PO0238,Alpha Supplies,South,IT Equipment,Laptops,13,419.17,5449.21,2024-04-28,2024-05-02,2024-05-02,True
+PO0239,Gamma Traders,North,Maintenance,Safety Gear,61,482.67,29442.87,2023-07-24,2023-08-03,2023-08-02,True
+PO0240,Beta Corp,North,Office Supplies,Notebooks,69,741.3,51149.7,2023-02-08,2023-02-14,2023-02-14,True
+PO0241,Gamma Traders,North,Maintenance,Repair Tools,24,937.24,22493.76,2023-10-24,2023-10-26,2023-10-26,True
+PO0242,Beta Corp,West,Furniture,Cabinets,59,989.21,58363.39,2024-07-10,2024-07-27,2024-07-27,True
+PO0243,Alpha Supplies,East,Furniture,Chairs,15,337.38,5060.7,2024-04-14,2024-04-23,2024-04-23,True
+PO0244,Epsilon Ltd,East,Furniture,Chairs,23,614.84,14141.32,2024-10-16,2024-10-29,2024-10-29,True
+PO0245,Beta Corp,North,Office Supplies,Folders,86,104.43,8980.98,2023-05-24,2023-06-09,2023-06-08,True
+PO0246,Epsilon Ltd,North,Furniture,Meeting Tables,31,452.27,14020.37,2023-10-01,2023-10-12,2023-10-17,False
+PO0247,Gamma Traders,South,Furniture,Cabinets,89,243.94,21710.66,2024-11-14,2024-11-18,2024-11-18,True
+PO0248,Gamma Traders,East,Maintenance,Safety Gear,65,923.87,60051.55,2024-12-21,2024-12-31,2024-12-31,True
+PO0249,Epsilon Ltd,East,Logistics,Packaging,29,957.79,27775.91,2024-05-04,2024-05-09,2024-05-09,True
+PO0250,Epsilon Ltd,North,Maintenance,Safety Gear,71,913.67,64870.57,2024-07-04,2024-07-11,2024-07-13,False
+PO0251,Alpha Supplies,South,Logistics,Pallets,68,706.73,48057.64,2023-03-21,2023-04-09,2023-04-09,True
+PO0252,Beta Corp,West,Logistics,Forklifts,20,172.89,3457.8,2024-06-16,2024-07-01,2024-07-01,True
+PO0253,Epsilon Ltd,North,Office Supplies,Folders,8,458.9,3671.2,2024-06-09,2024-06-23,2024-06-23,True
+PO0254,Alpha Supplies,South,Logistics,Pallets,87,808.85,70369.95,2023-01-23,2023-02-05,2023-02-10,False
+PO0255,Alpha Supplies,North,Logistics,Packaging,6,429.46,2576.76,2024-12-18,2024-12-21,2024-12-22,False
+PO0256,Delta Goods,West,Maintenance,Cleaning Supplies,37,414.78,15346.86,2023-05-19,2023-06-02,2023-06-01,True
+PO0257,Gamma Traders,North,Maintenance,Repair Tools,11,685.9,7544.9,2024-11-08,2024-11-26,2024-11-26,True
+PO0258,Gamma Traders,West,IT Equipment,Mice,68,136.07,9252.76,2023-08-17,2023-08-18,2023-08-18,True
+PO0259,Gamma Traders,South,Logistics,Pallets,69,385.48,26598.12,2023-08-24,2023-09-01,2023-09-01,True
+PO0260,Beta Corp,South,Furniture,Chairs,93,767.84,71409.12,2023-02-02,2023-02-16,2023-02-16,True
+PO0261,Alpha Supplies,West,Office Supplies,Pens,77,43.24,3329.48,2024-09-04,2024-09-06,2024-09-08,False
+PO0262,Gamma Traders,South,Maintenance,Cleaning Supplies,70,225.1,15757.0,2023-02-27,2023-03-04,2023-03-05,False
+PO0263,Gamma Traders,South,Logistics,Pallets,74,601.94,44543.56,2024-11-19,2024-11-30,2024-12-02,False
+PO0264,Delta Goods,West,Logistics,Packaging,53,307.5,16297.5,2023-03-04,2023-03-22,2023-03-22,True
+PO0265,Delta Goods,South,Office Supplies,Staplers,83,674.63,55994.29,2024-06-21,2024-07-02,2024-07-02,True
+PO0266,Gamma Traders,South,Furniture,Meeting Tables,24,756.87,18164.88,2024-04-29,2024-05-07,2024-05-09,False
+PO0267,Beta Corp,West,Maintenance,Cleaning Supplies,72,418.55,30135.6,2024-03-02,2024-03-20,2024-03-21,False
+PO0268,Alpha Supplies,South,IT Equipment,Keyboards,27,336.96,9097.92,2023-03-22,2023-04-06,2023-04-05,True
+PO0269,Beta Corp,South,Office Supplies,Staplers,49,676.94,33170.06,2024-09-09,2024-09-11,2024-09-11,True
+PO0270,Alpha Supplies,West,Maintenance,Cleaning Supplies,43,310.16,13336.88,2023-01-16,2023-01-23,2023-01-25,False
+PO0271,Delta Goods,West,IT Equipment,Monitors,51,915.98,46714.98,2024-07-19,2024-07-30,2024-08-04,False
+PO0272,Delta Goods,North,Logistics,Forklifts,46,315.34,14505.64,2024-01-04,2024-01-21,2024-01-21,True
+PO0273,Beta Corp,North,Maintenance,Repair Tools,27,377.0,10179.0,2024-02-28,2024-03-01,2024-03-03,False
+PO0274,Epsilon Ltd,South,Furniture,Meeting Tables,38,160.89,6113.82,2023-12-04,2023-12-12,2023-12-12,True
+PO0275,Delta Goods,West,Maintenance,Safety Gear,84,944.03,79298.52,2023-12-12,2023-12-21,2023-12-21,True
+PO0276,Epsilon Ltd,North,IT Equipment,Keyboards,22,148.56,3268.32,2024-07-13,2024-07-29,2024-07-29,True
+PO0277,Delta Goods,South,Logistics,Packaging,10,945.74,9457.4,2024-11-15,2024-11-17,2024-11-17,True
+PO0278,Gamma Traders,North,IT Equipment,Laptops,91,159.52,14516.32,2023-08-12,2023-08-29,2023-08-29,True
+PO0279,Alpha Supplies,West,Logistics,Forklifts,86,934.56,80372.16,2024-05-09,2024-05-25,2024-05-25,True
+PO0280,Epsilon Ltd,West,Office Supplies,Pens,68,724.97,49297.96,2024-07-02,2024-07-12,2024-07-12,True
+PO0281,Gamma Traders,East,IT Equipment,Laptops,13,529.14,6878.82,2023-09-04,2023-09-11,2023-09-12,False
+PO0282,Beta Corp,East,Furniture,Meeting Tables,11,379.32,4172.52,2024-02-20,2024-03-06,2024-03-08,False
+PO0283,Alpha Supplies,North,Office Supplies,Pens,12,411.23,4934.76,2024-01-22,2024-02-09,2024-02-09,True
+PO0284,Epsilon Ltd,North,IT Equipment,Laptops,64,846.88,54200.32,2024-10-22,2024-11-02,2024-11-02,True
+PO0285,Alpha Supplies,East,IT Equipment,Monitors,89,888.68,79092.52,2024-05-01,2024-05-10,2024-05-10,True
+PO0286,Epsilon Ltd,South,Logistics,Forklifts,85,42.57,3618.45,2023-11-19,2023-11-20,2023-11-22,False
+PO0287,Epsilon Ltd,East,Maintenance,Cleaning Supplies,39,170.83,6662.37,2023-09-04,2023-09-23,2023-09-23,True
+PO0288,Gamma Traders,North,Maintenance,Safety Gear,18,792.59,14266.62,2024-12-06,2024-12-09,2024-12-10,False
+PO0289,Gamma Traders,North,Office Supplies,Folders,30,840.29,25208.7,2023-12-15,2024-01-04,2024-01-04,True
+PO0290,Beta Corp,West,Furniture,Meeting Tables,63,235.86,14859.18,2024-07-20,2024-08-02,2024-08-02,True
+PO0291,Delta Goods,South,Office Supplies,Staplers,32,715.98,22911.36,2023-03-26,2023-04-04,2023-04-04,True
+PO0292,Gamma Traders,East,Maintenance,Repair Tools,47,115.49,5428.03,2023-01-06,2023-01-16,2023-01-16,True
+PO0293,Epsilon Ltd,West,Office Supplies,Notebooks,12,195.52,2346.24,2024-04-04,2024-04-22,2024-04-23,False
+PO0294,Delta Goods,North,Office Supplies,Pens,12,360.38,4324.56,2023-04-06,2023-04-26,2023-04-25,True
+PO0295,Beta Corp,West,Furniture,Meeting Tables,50,781.38,39069.0,2024-07-26,2024-08-03,2024-08-04,False
+PO0296,Beta Corp,West,IT Equipment,Monitors,35,308.12,10784.2,2024-05-19,2024-05-24,2024-05-24,True
+PO0297,Beta Corp,West,Furniture,Meeting Tables,39,489.39,19086.21,2023-03-20,2023-04-01,2023-04-06,False
+PO0298,Delta Goods,East,Logistics,Forklifts,26,463.28,12045.28,2023-05-19,2023-05-29,2023-05-29,True
+PO0299,Gamma Traders,East,Logistics,Pallets,43,445.82,19170.26,2024-03-16,2024-04-05,2024-04-05,True
+PO0300,Gamma Traders,West,Logistics,Forklifts,26,484.22,12589.72,2023-07-01,2023-07-14,2023-07-13,True
+PO0301,Epsilon Ltd,South,Logistics,Packaging,42,382.29,16056.18,2024-02-07,2024-02-19,2024-02-19,True
+PO0302,Beta Corp,West,Logistics,Forklifts,24,684.9,16437.6,2024-07-17,2024-07-18,2024-07-18,True
+PO0303,Gamma Traders,South,Furniture,Desks,53,676.25,35841.25,2023-05-23,2023-06-02,2023-06-04,False
+PO0304,Epsilon Ltd,West,Maintenance,Repair Tools,10,454.58,4545.8,2024-09-04,2024-09-20,2024-09-20,True
+PO0305,Alpha Supplies,South,Logistics,Packaging,47,704.62,33117.14,2024-07-03,2024-07-23,2024-07-23,True
+PO0306,Delta Goods,North,Furniture,Chairs,83,616.55,51173.65,2024-07-30,2024-08-12,2024-08-11,True
+PO0307,Delta Goods,East,Office Supplies,Pens,34,229.78,7812.52,2024-06-15,2024-07-03,2024-07-05,False
+PO0308,Gamma Traders,North,Maintenance,Repair Tools,99,682.76,67593.24,2024-12-08,2024-12-25,2024-12-25,True
+PO0309,Gamma Traders,East,Maintenance,Cleaning Supplies,38,421.82,16029.16,2023-03-29,2023-04-02,2023-04-02,True
+PO0310,Delta Goods,West,Furniture,Meeting Tables,27,525.9,14199.3,2023-12-23,2024-01-08,2024-01-08,True
+PO0311,Gamma Traders,North,Furniture,Desks,39,54.24,2115.36,2024-12-28,2025-01-01,2025-01-01,True
+PO0312,Delta Goods,West,IT Equipment,Monitors,67,182.71,12241.57,2023-06-13,2023-06-24,2023-06-25,False
+PO0313,Alpha Supplies,South,IT Equipment,Mice,81,192.61,15601.41,2024-10-17,2024-10-31,2024-10-31,True
+PO0314,Gamma Traders,North,Maintenance,Safety Gear,55,394.95,21722.25,2024-12-22,2024-12-29,2024-12-31,False
+PO0315,Alpha Supplies,East,Logistics,Packaging,69,195.09,13461.21,2023-11-30,2023-12-07,2023-12-07,True
+PO0316,Epsilon Ltd,North,Maintenance,Safety Gear,82,320.27,26262.14,2024-02-02,2024-02-22,2024-02-22,True
+PO0317,Beta Corp,East,Furniture,Cabinets,59,621.19,36650.21,2024-11-20,2024-11-30,2024-11-30,True
+PO0318,Delta Goods,West,Office Supplies,Notebooks,40,125.78,5031.2,2024-01-18,2024-01-23,2024-01-24,False
+PO0319,Beta Corp,South,Logistics,Packaging,74,389.87,28850.38,2023-07-10,2023-07-26,2023-07-27,False
+PO0320,Gamma Traders,North,Maintenance,Repair Tools,18,195.23,3514.14,2024-04-06,2024-04-26,2024-04-26,True
+PO0321,Delta Goods,West,Maintenance,Cleaning Supplies,25,817.06,20426.5,2024-07-29,2024-08-15,2024-08-15,True
+PO0322,Beta Corp,East,Maintenance,Safety Gear,57,493.81,28147.17,2023-03-26,2023-04-14,2023-04-14,True
+PO0323,Epsilon Ltd,North,Office Supplies,Staplers,29,542.23,15724.67,2023-06-22,2023-07-07,2023-07-07,True
+PO0324,Delta Goods,South,Logistics,Packaging,35,777.36,27207.6,2024-01-11,2024-01-29,2024-01-29,True
+PO0325,Delta Goods,East,Maintenance,Cleaning Supplies,95,831.77,79018.15,2023-09-11,2023-09-21,2023-09-21,True
+PO0326,Epsilon Ltd,East,Furniture,Desks,57,866.64,49398.48,2023-05-01,2023-05-09,2023-05-11,False
+PO0327,Alpha Supplies,East,Logistics,Forklifts,55,174.32,9587.6,2023-05-23,2023-05-30,2023-06-01,False
+PO0328,Epsilon Ltd,East,Logistics,Pallets,77,543.38,41840.26,2023-11-28,2023-12-08,2023-12-13,False
+PO0329,Beta Corp,South,Logistics,Forklifts,13,144.23,1874.99,2024-02-26,2024-02-28,2024-03-04,False
+PO0330,Beta Corp,East,IT Equipment,Monitors,92,328.88,30256.96,2023-09-11,2023-09-24,2023-09-24,True
+PO0331,Gamma Traders,East,Maintenance,Repair Tools,58,84.76,4916.08,2023-04-06,2023-04-19,2023-04-20,False
+PO0332,Alpha Supplies,West,Maintenance,Repair Tools,42,586.14,24617.88,2023-04-06,2023-04-21,2023-04-20,True
+PO0333,Epsilon Ltd,South,IT Equipment,Mice,28,499.77,13993.56,2023-11-27,2023-12-07,2023-12-06,True
+PO0334,Delta Goods,North,Logistics,Pallets,44,895.21,39389.24,2023-02-19,2023-02-21,2023-02-21,True
+PO0335,Gamma Traders,South,Office Supplies,Notebooks,57,461.95,26331.15,2024-03-14,2024-03-21,2024-03-21,True
+PO0336,Alpha Supplies,West,Furniture,Desks,84,366.83,30813.72,2023-03-26,2023-04-07,2023-04-07,True
+PO0337,Beta Corp,West,Furniture,Chairs,55,658.93,36241.15,2024-12-21,2024-12-25,2024-12-25,True
+PO0338,Alpha Supplies,East,Office Supplies,Notebooks,76,233.93,17778.68,2024-11-27,2024-12-12,2024-12-12,True
+PO0339,Alpha Supplies,North,Office Supplies,Folders,89,140.85,12535.65,2023-03-14,2023-03-22,2023-03-22,True
+PO0340,Beta Corp,North,Office Supplies,Staplers,48,882.18,42344.64,2023-05-21,2023-06-03,2023-06-03,True
+PO0341,Beta Corp,South,Logistics,Forklifts,2,614.22,1228.44,2023-06-18,2023-07-03,2023-07-02,True
+PO0342,Beta Corp,North,Maintenance,Safety Gear,88,447.96,39420.48,2023-08-11,2023-08-14,2023-08-14,True
+PO0343,Beta Corp,East,Logistics,Forklifts,50,358.02,17901.0,2024-03-15,2024-03-26,2024-03-26,True
+PO0344,Gamma Traders,South,Office Supplies,Notebooks,71,604.99,42954.29,2024-09-14,2024-09-24,2024-09-24,True
+PO0345,Beta Corp,West,Logistics,Forklifts,66,196.76,12986.16,2024-02-06,2024-02-16,2024-02-16,True
+PO0346,Alpha Supplies,East,Maintenance,Cleaning Supplies,31,504.59,15642.29,2024-08-31,2024-09-03,2024-09-04,False
+PO0347,Epsilon Ltd,South,Furniture,Chairs,50,862.21,43110.5,2024-08-05,2024-08-19,2024-08-18,True
+PO0348,Alpha Supplies,North,Maintenance,Cleaning Supplies,3,591.49,1774.47,2023-01-15,2023-01-24,2023-01-26,False
+PO0349,Delta Goods,North,Maintenance,Safety Gear,37,632.28,23394.36,2024-05-28,2024-06-11,2024-06-11,True
+PO0350,Epsilon Ltd,South,Logistics,Forklifts,79,161.15,12730.85,2023-03-27,2023-04-06,2023-04-06,True
+PO0351,Delta Goods,South,IT Equipment,Keyboards,51,590.57,30119.07,2024-10-27,2024-10-30,2024-11-04,False
+PO0352,Gamma Traders,South,Office Supplies,Notebooks,12,925.38,11104.56,2023-04-29,2023-05-14,2023-05-14,True
+PO0353,Gamma Traders,East,Office Supplies,Pens,91,145.84,13271.44,2023-01-12,2023-01-18,2023-01-18,True
+PO0354,Gamma Traders,West,IT Equipment,Keyboards,17,752.28,12788.76,2023-10-03,2023-10-07,2023-10-07,True
+PO0355,Delta Goods,East,Furniture,Desks,34,715.2,24316.8,2024-08-13,2024-08-16,2024-08-16,True
+PO0356,Epsilon Ltd,North,Office Supplies,Folders,73,175.21,12790.33,2023-06-11,2023-06-20,2023-06-20,True
+PO0357,Delta Goods,East,IT Equipment,Laptops,6,860.1,5160.6,2023-01-13,2023-01-21,2023-01-21,True
+PO0358,Beta Corp,East,Maintenance,Cleaning Supplies,23,931.85,21432.55,2023-02-06,2023-02-24,2023-02-24,True
+PO0359,Alpha Supplies,North,IT Equipment,Mice,93,326.74,30386.82,2023-03-21,2023-04-09,2023-04-08,True
+PO0360,Gamma Traders,East,IT Equipment,Monitors,67,981.6,65767.2,2024-02-15,2024-02-18,2024-02-18,True
+PO0361,Epsilon Ltd,East,Furniture,Desks,71,462.18,32814.78,2024-01-13,2024-01-20,2024-01-25,False
+PO0362,Beta Corp,South,Logistics,Packaging,60,374.59,22475.4,2024-05-20,2024-05-27,2024-05-28,False
+PO0363,Alpha Supplies,West,Office Supplies,Folders,4,240.67,962.68,2023-12-21,2023-12-22,2023-12-21,True
+PO0364,Alpha Supplies,South,Furniture,Desks,27,534.52,14432.04,2023-09-01,2023-09-15,2023-09-15,True
+PO0365,Delta Goods,North,Furniture,Desks,6,922.06,5532.36,2024-06-16,2024-06-30,2024-06-29,True
+PO0366,Delta Goods,South,Logistics,Packaging,65,142.18,9241.7,2024-02-08,2024-02-11,2024-02-11,True
+PO0367,Delta Goods,East,IT Equipment,Keyboards,34,852.4,28981.6,2024-02-07,2024-02-18,2024-02-17,True
+PO0368,Alpha Supplies,South,IT Equipment,Laptops,26,144.75,3763.5,2024-08-21,2024-08-25,2024-08-25,True
+PO0369,Delta Goods,East,Maintenance,Repair Tools,41,412.45,16910.45,2024-07-02,2024-07-14,2024-07-16,False
+PO0370,Beta Corp,East,Maintenance,Repair Tools,16,99.52,1592.32,2024-12-03,2024-12-13,2024-12-13,True
+PO0371,Alpha Supplies,East,IT Equipment,Laptops,92,255.74,23528.08,2023-12-31,2024-01-13,2024-01-14,False
+PO0372,Beta Corp,North,Furniture,Chairs,4,952.58,3810.32,2024-04-08,2024-04-26,2024-04-27,False
+PO0373,Beta Corp,West,Maintenance,Cleaning Supplies,18,130.24,2344.32,2023-03-05,2023-03-13,2023-03-13,True
+PO0374,Beta Corp,West,Furniture,Desks,75,590.26,44269.5,2023-03-18,2023-03-19,2023-03-19,True
+PO0375,Epsilon Ltd,West,IT Equipment,Laptops,43,131.3,5645.9,2024-04-17,2024-04-19,2024-04-19,True
+PO0376,Beta Corp,South,Maintenance,Repair Tools,4,388.9,1555.6,2024-03-12,2024-03-18,2024-03-17,True
+PO0377,Gamma Traders,West,Furniture,Cabinets,58,884.59,51306.22,2023-02-05,2023-02-25,2023-02-27,False
+PO0378,Delta Goods,South,Maintenance,Safety Gear,62,70.37,4362.94,2023-10-14,2023-10-27,2023-10-27,True
+PO0379,Gamma Traders,West,Logistics,Packaging,81,994.15,80526.15,2024-07-10,2024-07-11,2024-07-11,True
+PO0380,Gamma Traders,South,Logistics,Pallets,45,913.55,41109.75,2024-05-29,2024-06-09,2024-06-09,True
+PO0381,Epsilon Ltd,East,Office Supplies,Staplers,77,226.83,17465.91,2023-10-15,2023-10-17,2023-10-17,True
+PO0382,Epsilon Ltd,North,Logistics,Packaging,21,109.13,2291.73,2024-11-03,2024-11-11,2024-11-16,False
+PO0383,Epsilon Ltd,East,IT Equipment,Mice,46,935.85,43049.1,2023-06-27,2023-07-03,2023-07-05,False
+PO0384,Epsilon Ltd,South,Furniture,Desks,91,703.56,64023.96,2024-08-04,2024-08-23,2024-08-23,True
+PO0385,Beta Corp,South,Maintenance,Safety Gear,40,183.8,7352.0,2023-02-08,2023-02-11,2023-02-11,True
+PO0386,Gamma Traders,South,Office Supplies,Folders,1,338.42,338.42,2024-09-20,2024-09-27,2024-09-27,True
+PO0387,Epsilon Ltd,East,Furniture,Desks,3,156.23,468.69,2024-12-22,2024-12-27,2024-12-27,True
+PO0388,Gamma Traders,East,Office Supplies,Staplers,91,942.5,85767.5,2024-02-10,2024-02-29,2024-02-29,True
+PO0389,Beta Corp,East,Furniture,Chairs,21,735.03,15435.63,2024-03-23,2024-04-08,2024-04-07,True
+PO0390,Beta Corp,North,IT Equipment,Monitors,49,313.75,15373.75,2024-12-06,2024-12-16,2024-12-16,True
+PO0391,Epsilon Ltd,South,Logistics,Pallets,99,965.53,95587.47,2023-02-03,2023-02-09,2023-02-08,True
+PO0392,Gamma Traders,South,Logistics,Packaging,64,149.24,9551.36,2023-03-21,2023-03-29,2023-03-28,True
+PO0393,Gamma Traders,East,Office Supplies,Staplers,58,21.28,1234.24,2023-08-03,2023-08-11,2023-08-11,True
+PO0394,Delta Goods,West,Office Supplies,Pens,7,392.08,2744.56,2024-03-05,2024-03-11,2024-03-11,True
+PO0395,Delta Goods,North,Furniture,Meeting Tables,13,830.52,10796.76,2024-08-14,2024-08-22,2024-08-22,True
+PO0396,Beta Corp,West,Office Supplies,Staplers,3,325.53,976.59,2023-04-18,2023-04-21,2023-04-20,True
+PO0397,Alpha Supplies,West,IT Equipment,Laptops,71,942.42,66911.82,2023-04-06,2023-04-17,2023-04-17,True
+PO0398,Delta Goods,East,IT Equipment,Mice,21,63.02,1323.42,2023-12-06,2023-12-13,2023-12-15,False
+PO0399,Delta Goods,South,Furniture,Cabinets,31,104.96,3253.76,2024-02-07,2024-02-26,2024-02-27,False
+PO0400,Beta Corp,North,Office Supplies,Staplers,1,433.33,433.33,2023-10-29,2023-11-18,2023-11-18,True
+PO0401,Gamma Traders,West,Office Supplies,Notebooks,22,641.81,14119.82,2023-03-25,2023-04-10,2023-04-10,True
+PO0402,Beta Corp,East,Maintenance,Repair Tools,85,272.35,23149.75,2024-10-19,2024-11-06,2024-11-06,True
+PO0403,Gamma Traders,South,Maintenance,Repair Tools,24,451.32,10831.68,2023-09-27,2023-10-12,2023-10-12,True
+PO0404,Gamma Traders,West,Furniture,Desks,20,754.71,15094.2,2024-11-14,2024-11-18,2024-11-18,True
+PO0405,Epsilon Ltd,West,Logistics,Packaging,71,70.37,4996.27,2024-02-01,2024-02-18,2024-02-18,True
+PO0406,Epsilon Ltd,South,Logistics,Packaging,61,305.86,18657.46,2024-02-09,2024-02-11,2024-02-12,False
+PO0407,Beta Corp,North,Office Supplies,Folders,23,949.57,21840.11,2023-06-21,2023-06-28,2023-06-30,False
+PO0408,Gamma Traders,North,Maintenance,Cleaning Supplies,88,441.04,38811.52,2024-10-04,2024-10-09,2024-10-14,False
+PO0409,Delta Goods,North,Office Supplies,Folders,72,403.38,29043.36,2023-11-30,2023-12-09,2023-12-10,False
+PO0410,Beta Corp,North,Logistics,Forklifts,67,783.87,52519.29,2023-04-26,2023-05-10,2023-05-10,True
+PO0411,Delta Goods,West,Office Supplies,Pens,37,868.8,32145.6,2023-12-19,2024-01-02,2024-01-07,False
+PO0412,Epsilon Ltd,West,Logistics,Forklifts,61,47.09,2872.49,2023-10-10,2023-10-23,2023-10-23,True
+PO0413,Gamma Traders,North,Office Supplies,Folders,43,693.61,29825.23,2023-02-20,2023-03-08,2023-03-13,False
+PO0414,Beta Corp,East,Furniture,Cabinets,40,287.54,11501.6,2024-05-18,2024-05-22,2024-05-24,False
+PO0415,Delta Goods,South,Maintenance,Repair Tools,35,731.51,25602.85,2024-09-11,2024-09-14,2024-09-16,False
+PO0416,Beta Corp,North,Maintenance,Safety Gear,63,761.9,47999.7,2024-01-18,2024-01-20,2024-01-21,False
+PO0417,Beta Corp,South,Furniture,Meeting Tables,18,782.71,14088.78,2024-06-20,2024-07-09,2024-07-09,True
+PO0418,Gamma Traders,East,IT Equipment,Laptops,32,42.74,1367.68,2023-02-21,2023-03-05,2023-03-07,False
+PO0419,Gamma Traders,West,Maintenance,Safety Gear,51,639.06,32592.06,2023-05-07,2023-05-08,2023-05-10,False
+PO0420,Gamma Traders,East,Logistics,Pallets,23,960.92,22101.16,2024-04-30,2024-05-19,2024-05-20,False
+PO0421,Delta Goods,North,IT Equipment,Keyboards,96,832.56,79925.76,2023-04-03,2023-04-13,2023-04-13,True
+PO0422,Delta Goods,North,IT Equipment,Monitors,29,650.91,18876.39,2024-11-24,2024-12-01,2024-12-06,False
+PO0423,Gamma Traders,East,Office Supplies,Folders,17,650.9,11065.3,2024-09-07,2024-09-08,2024-09-10,False
+PO0424,Delta Goods,East,Furniture,Meeting Tables,49,853.07,41800.43,2024-04-15,2024-04-24,2024-04-26,False
+PO0425,Epsilon Ltd,East,Logistics,Forklifts,51,588.64,30020.64,2023-01-08,2023-01-25,2023-01-24,True
+PO0426,Gamma Traders,East,Furniture,Desks,62,73.2,4538.4,2023-10-11,2023-10-22,2023-10-27,False
+PO0427,Gamma Traders,South,IT Equipment,Monitors,67,767.82,51443.94,2023-02-28,2023-03-20,2023-03-20,True
+PO0428,Alpha Supplies,South,Office Supplies,Folders,38,266.83,10139.54,2024-03-04,2024-03-17,2024-03-17,True
+PO0429,Gamma Traders,South,Furniture,Chairs,88,539.29,47457.52,2024-05-02,2024-05-14,2024-05-15,False
+PO0430,Beta Corp,East,Logistics,Packaging,38,106.63,4051.94,2023-05-12,2023-05-21,2023-05-22,False
+PO0431,Gamma Traders,East,Office Supplies,Notebooks,46,231.09,10630.14,2023-11-11,2023-11-25,2023-11-24,True
+PO0432,Delta Goods,South,Logistics,Pallets,60,852.7,51162.0,2024-04-26,2024-04-28,2024-04-28,True
+PO0433,Beta Corp,South,Logistics,Packaging,88,387.85,34130.8,2023-11-02,2023-11-16,2023-11-16,True
+PO0434,Beta Corp,North,IT Equipment,Keyboards,53,987.32,52327.96,2024-04-13,2024-04-18,2024-04-17,True
+PO0435,Delta Goods,East,Maintenance,Repair Tools,81,986.77,79928.37,2023-11-17,2023-11-19,2023-11-19,True
+PO0436,Epsilon Ltd,West,IT Equipment,Monitors,74,766.84,56746.16,2024-05-16,2024-05-19,2024-05-19,True
+PO0437,Epsilon Ltd,South,Maintenance,Repair Tools,55,965.67,53111.85,2024-01-28,2024-01-29,2024-01-29,True
+PO0438,Alpha Supplies,South,Furniture,Desks,42,759.28,31889.76,2024-06-27,2024-07-04,2024-07-04,True
+PO0439,Beta Corp,North,IT Equipment,Keyboards,40,137.64,5505.6,2024-01-28,2024-02-14,2024-02-19,False
+PO0440,Gamma Traders,West,Office Supplies,Staplers,38,461.37,17532.06,2024-06-16,2024-07-06,2024-07-07,False
+PO0441,Alpha Supplies,South,IT Equipment,Keyboards,63,365.66,23036.58,2023-07-12,2023-07-18,2023-07-18,True
+PO0442,Alpha Supplies,East,IT Equipment,Monitors,28,736.74,20628.72,2024-08-26,2024-09-12,2024-09-12,True
+PO0443,Epsilon Ltd,North,Office Supplies,Folders,82,263.23,21584.86,2024-07-01,2024-07-21,2024-07-21,True
+PO0444,Alpha Supplies,East,Office Supplies,Pens,7,692.85,4849.95,2024-03-02,2024-03-17,2024-03-17,True
+PO0445,Delta Goods,North,Maintenance,Safety Gear,20,213.44,4268.8,2024-12-03,2024-12-04,2024-12-09,False
+PO0446,Epsilon Ltd,North,Logistics,Pallets,80,609.58,48766.4,2023-05-21,2023-06-04,2023-06-04,True
+PO0447,Epsilon Ltd,South,Furniture,Desks,14,502.76,7038.64,2024-09-15,2024-09-22,2024-09-27,False
+PO0448,Delta Goods,East,Furniture,Meeting Tables,38,168.77,6413.26,2024-07-15,2024-07-31,2024-08-02,False
+PO0449,Beta Corp,North,IT Equipment,Laptops,2,674.92,1349.84,2023-04-24,2023-05-13,2023-05-13,True
+PO0450,Gamma Traders,East,Logistics,Packaging,93,726.34,67549.62,2023-09-20,2023-09-28,2023-09-28,True
+PO0451,Gamma Traders,West,Maintenance,Cleaning Supplies,13,815.05,10595.65,2023-02-10,2023-02-20,2023-02-19,True
+PO0452,Gamma Traders,East,Office Supplies,Pens,98,891.39,87356.22,2023-01-10,2023-01-15,2023-01-15,True
+PO0453,Beta Corp,North,Maintenance,Safety Gear,35,879.69,30789.15,2023-04-06,2023-04-18,2023-04-17,True
+PO0454,Beta Corp,North,Maintenance,Repair Tools,59,279.11,16467.49,2024-01-30,2024-02-15,2024-02-15,True
+PO0455,Beta Corp,West,IT Equipment,Laptops,21,112.68,2366.28,2024-08-27,2024-09-12,2024-09-12,True
+PO0456,Alpha Supplies,West,Furniture,Desks,88,881.15,77541.2,2023-05-14,2023-05-30,2023-05-30,True
+PO0457,Epsilon Ltd,South,Maintenance,Cleaning Supplies,9,269.0,2421.0,2023-11-18,2023-11-19,2023-11-20,False
+PO0458,Delta Goods,South,Furniture,Desks,56,665.1,37245.6,2023-09-12,2023-09-28,2023-09-27,True
+PO0459,Delta Goods,South,Logistics,Forklifts,7,21.53,150.71,2023-06-10,2023-06-27,2023-06-27,True
+PO0460,Beta Corp,West,Office Supplies,Folders,42,248.48,10436.16,2023-10-12,2023-10-14,2023-10-15,False
+PO0461,Delta Goods,West,Maintenance,Cleaning Supplies,11,464.5,5109.5,2024-08-09,2024-08-24,2024-08-24,True
+PO0462,Delta Goods,North,Furniture,Desks,64,747.79,47858.56,2023-01-19,2023-01-23,2023-01-23,True
+PO0463,Epsilon Ltd,South,Logistics,Forklifts,1,827.65,827.65,2024-09-10,2024-09-30,2024-10-05,False
+PO0464,Epsilon Ltd,West,Maintenance,Repair Tools,47,827.06,38871.82,2023-08-17,2023-09-01,2023-08-31,True
+PO0465,Gamma Traders,East,Furniture,Meeting Tables,15,106.46,1596.9,2024-11-05,2024-11-13,2024-11-13,True
+PO0466,Delta Goods,North,Furniture,Cabinets,90,115.26,10373.4,2023-06-18,2023-07-04,2023-07-04,True
+PO0467,Beta Corp,East,Furniture,Chairs,25,129.54,3238.5,2024-02-07,2024-02-14,2024-02-14,True
+PO0468,Delta Goods,West,Office Supplies,Folders,6,927.36,5564.16,2024-11-19,2024-12-08,2024-12-08,True
+PO0469,Epsilon Ltd,West,Logistics,Forklifts,18,964.22,17355.96,2023-01-05,2023-01-22,2023-01-22,True
+PO0470,Beta Corp,North,Logistics,Pallets,66,783.27,51695.82,2023-07-01,2023-07-20,2023-07-20,True
+PO0471,Delta Goods,South,Maintenance,Safety Gear,77,610.1,46977.7,2023-11-26,2023-12-13,2023-12-13,True
+PO0472,Delta Goods,East,Furniture,Meeting Tables,44,970.79,42714.76,2024-04-08,2024-04-13,2024-04-13,True
+PO0473,Beta Corp,East,Logistics,Pallets,92,739.45,68029.4,2024-07-20,2024-07-27,2024-07-29,False
+PO0474,Gamma Traders,North,Furniture,Chairs,91,653.59,59476.69,2023-07-02,2023-07-19,2023-07-20,False
+PO0475,Gamma Traders,West,Furniture,Meeting Tables,75,574.93,43119.75,2024-11-14,2024-11-28,2024-11-29,False
+PO0476,Gamma Traders,South,Office Supplies,Pens,4,387.06,1548.24,2023-02-24,2023-02-26,2023-02-28,False
+PO0477,Epsilon Ltd,North,Furniture,Cabinets,19,840.99,15978.81,2024-12-08,2024-12-18,2024-12-20,False
+PO0478,Epsilon Ltd,West,Furniture,Meeting Tables,14,619.95,8679.3,2024-11-22,2024-12-10,2024-12-12,False
+PO0479,Gamma Traders,North,IT Equipment,Keyboards,89,667.85,59438.65,2024-01-26,2024-02-08,2024-02-08,True
+PO0480,Epsilon Ltd,South,Office Supplies,Staplers,26,624.36,16233.36,2024-03-29,2024-04-06,2024-04-05,True
+PO0481,Beta Corp,North,IT Equipment,Keyboards,58,185.65,10767.7,2024-11-30,2024-12-03,2024-12-03,True
+PO0482,Epsilon Ltd,East,Maintenance,Cleaning Supplies,55,286.32,15747.6,2023-09-28,2023-10-03,2023-10-03,True
+PO0483,Gamma Traders,North,Office Supplies,Staplers,60,712.59,42755.4,2023-06-08,2023-06-10,2023-06-10,True
+PO0484,Alpha Supplies,East,Logistics,Forklifts,39,495.65,19330.35,2024-08-09,2024-08-27,2024-08-26,True
+PO0485,Epsilon Ltd,West,Logistics,Packaging,24,525.4,12609.6,2024-06-01,2024-06-07,2024-06-07,True
+PO0486,Gamma Traders,East,Office Supplies,Staplers,29,884.56,25652.24,2024-11-10,2024-11-21,2024-11-20,True
+PO0487,Gamma Traders,West,IT Equipment,Mice,72,825.45,59432.4,2024-10-26,2024-10-27,2024-10-27,True
+PO0488,Delta Goods,East,IT Equipment,Monitors,6,685.73,4114.38,2023-11-25,2023-12-08,2023-12-08,True
+PO0489,Epsilon Ltd,West,Logistics,Forklifts,37,34.46,1275.02,2024-06-13,2024-06-25,2024-06-26,False
+PO0490,Alpha Supplies,North,Maintenance,Cleaning Supplies,38,899.3,34173.4,2023-07-17,2023-07-28,2023-07-29,False
+PO0491,Alpha Supplies,South,IT Equipment,Laptops,81,74.82,6060.42,2024-11-17,2024-11-24,2024-11-24,True
+PO0492,Alpha Supplies,West,Logistics,Forklifts,95,777.45,73857.75,2024-10-24,2024-10-27,2024-10-27,True
+PO0493,Alpha Supplies,South,Furniture,Desks,12,82.52,990.24,2023-07-02,2023-07-11,2023-07-12,False
+PO0494,Alpha Supplies,West,Furniture,Meeting Tables,50,456.61,22830.5,2024-02-19,2024-03-04,2024-03-03,True
+PO0495,Alpha Supplies,East,Office Supplies,Pens,83,723.08,60015.64,2023-03-06,2023-03-25,2023-03-25,True
+PO0496,Gamma Traders,West,Logistics,Packaging,38,789.02,29982.76,2023-11-05,2023-11-25,2023-11-25,True
+PO0497,Beta Corp,West,Maintenance,Repair Tools,85,40.51,3443.35,2023-06-10,2023-06-28,2023-06-30,False
+PO0498,Epsilon Ltd,South,Logistics,Pallets,82,152.63,12515.66,2024-11-24,2024-12-06,2024-12-06,True
+PO0499,Alpha Supplies,East,Office Supplies,Pens,1,576.99,576.99,2024-02-08,2024-02-26,2024-02-27,False
+PO0500,Beta Corp,South,IT Equipment,Keyboards,28,418.53,11718.84,2024-10-23,2024-11-09,2024-11-09,True
